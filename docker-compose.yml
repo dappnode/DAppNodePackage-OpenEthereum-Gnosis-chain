@@ -8,7 +8,7 @@ services:
     image: "openethereum-gnosis-chain.dnp.dappnode.eth:0.1.0"
     restart: unless-stopped
     volumes:
-      - "data:/root/.local/share/openethereum"
+      - "data:/home/openethereum/.local/share"
     environment:
       - EXTRA_OPTS=
     ports:
