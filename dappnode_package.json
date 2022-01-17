@@ -1,35 +1,31 @@
 {
-    "name": "openethereum-gnosis-chain.dnp.dappnode.eth",
-    "version": "0.1.0",
-    "upstreamVersion": "v3.3.2",
-    "upstreamRepo": "openethereum/openethereum",
-    "upstreamArg": "UPSTREAM_VERSION",
-    "shortDescritption": "OpenEthereum is the official Rust implementation of the Ethereum Protocol. This client is configured to run the xDai chain.",
-    "description": "Another Gnosis Chain Execution client (formerly xDai) witten in RUST. Miners, service providers, and exchanges need fast synchronization and maximum uptime. OpenEthereum Gnosis Chain provides the core infrastructure essential for speedy and reliable services.",
-    "type": "service",
-    "architectures": [
-        "linux/amd64"
-    ],
-    "chain": "ethereum",
-    "dockerTimeout": "20mins",
-    "author": "DAppNode Association <admin@dappnode.io> (https://github.com/dappnode)",
-    "contributors": [
-        "Alex Peterson (voss) <https://github.com/alexpeterson91",
-        "Eduardo Antuña Diez <https://github.com/eduadiez"
-    ],
-    "Categories": [
-        "Blockhain"
-    ],
-    "license": "GPL-3.0",
-    "links": {
-        "endpoint": "http://openethereum-gnosis-chain.dappnode:8545",
-        "homepage": "https://github/dappnode/DAppNodePackage-openethereum-gnosis-chain#readme"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/dappnode/DAppNodePackage-openethereum-gnosis-chain.git"
-    },
-    "bugs": {
-        "url": "https://github.com/dappnode/DAppNodePackage-openethereum-gnosis-chain/issues"
-    }
+  "name": "openethereum-gnosis-chain.dnp.dappnode.eth",
+  "version": "0.1.0",
+  "upstreamVersion": "v3.3.3",
+  "upstreamRepo": "openethereum/openethereum",
+  "upstreamArg": "UPSTREAM_VERSION",
+  "shortDescritption": "OpenEthereum is the official Rust implementation of the Ethereum Protocol. This client is configured to run the xDai chain.",
+  "description": "Another Gnosis Chain Execution client (formerly xDai) witten in RUST. Miners, service providers, and exchanges need fast synchronization and maximum uptime. OpenEthereum Gnosis Chain provides the core infrastructure essential for speedy and reliable services.",
+  "type": "service",
+  "architectures": ["linux/amd64"],
+  "chain": "ethereum",
+  "dockerTimeout": "20mins",
+  "author": "DAppNode Association <admin@dappnode.io> (https://github.com/dappnode)",
+  "contributors": [
+    "Alex Peterson (voss) <https://github.com/alexpeterson91",
+    "Eduardo Antuña Diez <https://github.com/eduadiez"
+  ],
+  "Categories": ["Blockhain"],
+  "license": "GPL-3.0",
+  "links": {
+    "endpoint": "http://openethereum-gnosis-chain.dappnode:8545",
+    "homepage": "https://github/dappnode/DAppNodePackage-openethereum-gnosis-chain#readme"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dappnode/DAppNodePackage-openethereum-gnosis-chain.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dappnode/DAppNodePackage-openethereum-gnosis-chain/issues"
+  }
 }
